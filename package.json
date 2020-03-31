@@ -1,0 +1,38 @@
+{
+    "name": "forest-night",
+    "displayName": "forest-night",
+    "description": "Comfortable & Pleasant Color Scheme for Visual Studio Code",
+    "version": "0.1.0",
+    "publisher": "sainnhe",
+    "author": "sainnhe (https://github.com/sainnhe)",
+    "homepage": "https://github.com/sainnhe/forest-night-vscode",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sainnhe/forest-night-vscode.git"
+    },
+    "bugs": {
+        "url": "https://github.com/sainnhe/forest-night-vscode/issues"
+    },
+    "license": "MIT",
+    "keywords": [
+        "green",
+        "theme"
+    ],
+    "galleryBanner": {
+        "color": "#323d43",
+        "theme": "dark"
+    },
+    "engines": {
+        "vscode": "^1.43.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [{
+            "label": "Forest Night",
+            "uiTheme": "vs-dark",
+            "path": "./themes/forest-night.json"
+        }]
+    }
+}
