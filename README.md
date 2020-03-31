@@ -4,7 +4,7 @@
 
 ![forest-night-ts](https://user-images.githubusercontent.com/37491630/77978067-aa1d8400-72f0-11ea-80e8-a1dfe05c1fb7.png)
 
-![forest-night-rs](https://user-images.githubusercontent.com/37491630/77977694-e997a080-72ef-11ea-9b7b-2aa283b0e1a6.png)
+![forest-night-rs](https://user-images.githubusercontent.com/37491630/78005768-917e8f80-732b-11ea-9d28-94d1fc15820a.png)
 
 ![forest-night-py](https://user-images.githubusercontent.com/37491630/77978065-a8ec5700-72f0-11ea-9a4f-2be9461e19a4.png)
 
