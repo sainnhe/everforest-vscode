@@ -4,6 +4,10 @@ All notable changes to the "forest-night" extension will be documented in this f
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 0.1.1
+
+- Fix display name.
+
 ## 0.1.0
 
 - Initial release
