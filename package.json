@@ -34,6 +34,11 @@
                 "label": "Forest Night",
                 "uiTheme": "vs-dark",
                 "path": "./themes/forest-night.json"
+            },
+            {
+                "label": "Forest Night (Italic)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/forest-night-italic.json"
             }
         ]
     }
