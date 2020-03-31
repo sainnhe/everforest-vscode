@@ -56,7 +56,14 @@ ext install sainnhe.forest-night
 
 ## Related Projects
 
-See [sainnhe/forest-night](https://github.com/sainnhe/forest-night#related-projects)
+See [sainnhe/forest-night](https://github.com/sainnhe/forest-night#related-projects) for other ports.
+
+### More Color Schemes
+
+- [Gruvbox Material](https://marketplace.visualstudio.com/items?itemName=sainnhe.gruvbox-material)
+- [Edge](https://marketplace.visualstudio.com/items?itemName=sainnhe.edge)
+- [Sonokai](https://marketplace.visualstudio.com/items?itemName=sainnhe.sonokai)
+
 
 ## Inspiration
 
