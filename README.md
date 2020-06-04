@@ -56,7 +56,7 @@ ext install sainnhe.forest-night
 
 ## Related Projects
 
-See [sainnhe/forest-night](https://github.com/sainnhe/forest-night#related-projects) for other ports.
+See this [wiki page](https://github.com/sainnhe/forest-night/wiki/Related-Projects).
 
 ### More Color Schemes
 
