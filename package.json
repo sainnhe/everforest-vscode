@@ -1,17 +1,17 @@
 {
-    "name": "forest-night",
-    "displayName": "Forest Night",
+    "name": "everforest",
+    "displayName": "Everforest",
     "description": "Comfortable & Pleasant Color Scheme for Visual Studio Code",
-    "version": "0.1.5",
+    "version": "0.1.0",
     "publisher": "sainnhe",
     "author": "sainnhe (https://github.com/sainnhe)",
-    "homepage": "https://github.com/sainnhe/forest-night-vscode",
+    "homepage": "https://github.com/sainnhe/everforest-vscode",
     "repository": {
         "type": "git",
-        "url": "https://github.com/sainnhe/forest-night-vscode.git"
+        "url": "https://github.com/sainnhe/everforest-vscode.git"
     },
     "bugs": {
-        "url": "https://github.com/sainnhe/forest-night-vscode/issues"
+        "url": "https://github.com/sainnhe/everforest-vscode/issues"
     },
     "license": "MIT",
     "keywords": [
@@ -19,27 +19,184 @@
         "theme"
     ],
     "galleryBanner": {
-        "color": "#323d43",
+        "color": "#2f383e",
         "theme": "dark"
-    },
-    "engines": {
-        "vscode": "^1.43.0"
     },
     "categories": [
         "Themes"
     ],
+    "activationEvents": [
+        "*"
+    ],
+    "main": "./out/extension.js",
     "contributes": {
         "themes": [
             {
-                "label": "Forest Night",
+                "label": "Everforest Dark",
                 "uiTheme": "vs-dark",
-                "path": "./themes/forest-night.json"
+                "path": "./themes/everforest-dark.json"
             },
             {
-                "label": "Forest Night (Italic)",
-                "uiTheme": "vs-dark",
-                "path": "./themes/forest-night-italic.json"
+                "label": "Everforest Light",
+                "uiTheme": "vs",
+                "path": "./themes/everforest-light.json"
             }
-        ]
+        ],
+        "configuration": {
+            "title": "Everforest",
+            "properties": {
+                "everforest.darkContrast": {
+                    "type": "string",
+                    "default": "medium",
+                    "description": "Background contrast for the dark variant.",
+                    "enum": [
+                        "soft",
+                        "medium",
+                        "hard"
+                    ]
+                },
+                "everforest.lightContrast": {
+                    "type": "string",
+                    "default": "medium",
+                    "description": "Background contrast for the light variant.",
+                    "enum": [
+                        "soft",
+                        "medium",
+                        "hard"
+                    ]
+                },
+                "everforest.darkWorkbench": {
+                    "type": "string",
+                    "default": "material",
+                    "description": "Workbench style for the dark variant.",
+                    "enum": [
+                        "material",
+                        "flat",
+                        "high-contrast"
+                    ]
+                },
+                "everforest.lightWorkbench": {
+                    "type": "string",
+                    "default": "material",
+                    "description": "Workbench style for the light variant.",
+                    "enum": [
+                        "material",
+                        "flat",
+                        "high-contrast"
+                    ]
+                },
+                "everforest.darkCursor": {
+                    "type": "string",
+                    "default": "white",
+                    "description": "The cursor color in the dark variant.",
+                    "enum": [
+                        "white",
+                        "red",
+                        "orange",
+                        "yellow",
+                        "green",
+                        "aqua",
+                        "blue",
+                        "purple"
+                    ]
+                },
+                "everforest.lightCursor": {
+                    "type": "string",
+                    "default": "black",
+                    "description": "The cursor color in the light variant.",
+                    "enum": [
+                        "black",
+                        "red",
+                        "orange",
+                        "yellow",
+                        "green",
+                        "aqua",
+                        "blue",
+                        "purple"
+                    ]
+                },
+                "everforest.darkSelection": {
+                    "type": "string",
+                    "default": "grey",
+                    "description": "The background color of selected text in the dark variant.",
+                    "enum": [
+                        "grey",
+                        "red",
+                        "orange",
+                        "yellow",
+                        "green",
+                        "aqua",
+                        "blue",
+                        "purple"
+                    ]
+                },
+                "everforest.lightSelection": {
+                    "type": "string",
+                    "default": "grey",
+                    "description": "The background color of selected text in the light variant.",
+                    "enum": [
+                        "grey",
+                        "red",
+                        "orange",
+                        "yellow",
+                        "green",
+                        "aqua",
+                        "blue",
+                        "purple"
+                    ]
+                },
+                "everforest.italicKeywords": {
+                    "type": "boolean",
+                    "default": false,
+                    "description": "Italicize keywords or not."
+                },
+                "everforest.italicComments": {
+                    "type": "boolean",
+                    "default": true,
+                    "description": "Italicize comments or not."
+                },
+                "everforest.diagnosticTextBackgroundOpacity": {
+                    "type": "string",
+                    "default": "0%",
+                    "markdownDescription": "VSCode introduced a new feature in v1.52 that can highlight the background color of error/warning/info text, you can use this option to control the opacity of the background colors.",
+                    "enum": [
+                        "0%",
+                        "12.5%",
+                        "25%",
+                        "37.5%",
+                        "50%"
+                    ]
+                }
+            }
+        }
+    },
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile:ts": "tsc -p src",
+        "compile:themes": "node out/hook/generateTheme.js",
+        "compile": "npm run compile:ts && npm run compile:themes",
+        "package": "vsce package && git checkout -- themes",
+        "test": "npm run compile && node ./node_modules/vscode/bin/test",
+        "prepare": "husky install"
+    },
+    "engines": {
+        "vscode": "^1.40.0"
+    },
+    "devDependencies": {
+        "@types/node": "^14.14.36",
+        "@types/vscode": "^1.40.0",
+        "husky": "^5.2.0",
+        "lint-staged": "^10.5.4",
+        "prettier": "^2.2.1",
+        "tslint": "^6.1.3",
+        "typescript": "^4.2.3",
+        "vsce": "^1.87.0"
+    },
+    "prettier": {
+        "trailingComma": "es5",
+        "tabWidth": 2
+    },
+    "lint-staged": {
+        "*.{ts,json,md}": "prettier --write"
     }
 }
