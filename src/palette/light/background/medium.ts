@@ -1,6 +1,6 @@
 export default {
-  bg0: "#e4e1cd",
-  bg1: "#f3efda",
+  bg0: "#f0edd8",
+  bg1: "#f6f1dd",
   bg: "#fdf6e3",
   bg2: "#f3efda",
   bg3: "#edead5",
