@@ -112,9 +112,9 @@ export function materialWorkbench(
       configuration.lightSelection // {{{
     ) {
       case "grey": {
-        selectionBg = `${palette.bg4}d0`;
-        editorSelectionBg = `${palette.bg4}b0`;
-        editorSelectionBgHl = `${palette.bg4}58`;
+        selectionBg = `${palette.bg4}c0`;
+        editorSelectionBg = `${palette.bg4}a0`;
+        editorSelectionBgHl = `${palette.bg4}50`;
         break;
       }
       case "red": {
@@ -160,9 +160,9 @@ export function materialWorkbench(
         break;
       }
       default: {
-        selectionBg = `${palette.bg4}d0`;
-        editorSelectionBg = `${palette.bg4}b0`;
-        editorSelectionBgHl = `${palette.bg4}58`;
+        selectionBg = `${palette.bg4}c0`;
+        editorSelectionBg = `${palette.bg4}a0`;
+        editorSelectionBgHl = `${palette.bg4}50`;
       }
     } // }}}
     switch (
