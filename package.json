@@ -177,7 +177,7 @@
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile:ts": "tsc",
-    "compile:themes": "node out/hook/generateTheme.js",
+    "compile:themes": "node out/hook/generateThemes.js",
     "compile": "npm run compile:ts && npm run compile:themes",
     "package": "vsce package && git checkout -- themes",
     "lint": "npx eslint . --ext .ts",
