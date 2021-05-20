@@ -18,7 +18,7 @@ export default class Utils {
   } // }}}
   getConfiguration(): Configuration {
     // {{{
-    let workspaceConfiguration = workspace.getConfiguration("everforest");
+    const workspaceConfiguration = workspace.getConfiguration("everforest");
     return {
       darkContrast: workspaceConfiguration.get<string>("darkContrast"),
       lightContrast: workspaceConfiguration.get<string>("lightContrast"),
