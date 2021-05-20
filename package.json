@@ -176,11 +176,12 @@
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
+    "clean": "rimraf out *.vsix",
     "compile:ts": "tsc",
     "compile:themes": "node out/hook/generateThemes.js",
-    "compile": "npm run compile:ts && npm run compile:themes",
+    "compile": "npm run clean && npm run compile:ts && npm run compile:themes",
     "package": "vsce package && git checkout -- themes",
-    "lint": "npx eslint . --ext .ts",
+    "lint": "eslint . --ext .ts",
     "prepare": "husky install"
   },
   "lint-staged": {
@@ -201,6 +202,7 @@
     "husky": "6.0.0",
     "lint-staged": "11.0.0",
     "prettier": "2.3.0",
+    "rimraf": "^3.0.2",
     "typescript": "4.2.4",
     "vsce": "1.88.0"
   }
