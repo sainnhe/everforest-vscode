@@ -396,6 +396,7 @@ export function highContrastWorkbench(
     "editorGutter.commentRangeForeground": `${palette.grey0}`,
     "diffEditor.insertedTextBackground": `${palette.dimAqua}30`,
     "diffEditor.removedTextBackground": `${palette.dimRed}30`,
+    "diffEditor.diagonalFill": `${palette.bg5}`,
     "editorSuggestWidget.background": `${palette.bg2}`,
     "editorSuggestWidget.foreground": `${palette.fg}`,
     "editorSuggestWidget.highlightForeground": `${palette.green}`,

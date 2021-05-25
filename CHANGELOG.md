@@ -2,6 +2,11 @@
 
 All notable changes to the "everforest" extension will be documented in this file.
 
+## 0.1.5
+
+- Bigger icon size.
+- Optimize diffEditor colors.
+
 ## 0.1.4
 
 - Support remote development by specifying extensionKind.

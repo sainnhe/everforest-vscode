@@ -190,6 +190,7 @@
     "editorGutter.commentRangeForeground": "#7c8377",
     "diffEditor.insertedTextBackground": "#569d7930",
     "diffEditor.removedTextBackground": "#da636230",
+    "diffEditor.diagonalFill": "#525c62",
     "editorSuggestWidget.background": "#374247",
     "editorSuggestWidget.foreground": "#d3c6aa",
     "editorSuggestWidget.highlightForeground": "#a7c080",
