@@ -6,7 +6,7 @@ export default {
   bg3: "#3a454a",
   bg4: "#445055",
   bg5: "#4c555b",
-  grey0: "#7b897b",
+  grey0: "#7f897d",
   grey1: "#859289",
   grey2: "#9aa79d",
   shadow: "#00000070",
