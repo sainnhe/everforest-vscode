@@ -6,8 +6,8 @@ export default {
   bg3: "#465258",
   bg4: "#505a60",
   bg5: "#576268",
-  grey0: "#7c8377",
-  grey1: "#868d80",
-  grey2: "#999f93",
+  grey0: "#7b897b",
+  grey1: "#859289",
+  grey2: "#9aa79d",
   shadow: "#00000070",
 };
