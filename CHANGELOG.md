@@ -7,6 +7,7 @@ All notable changes to the "everforest" extension will be documented in this fil
 - Bigger icon size.
 - Optimize diffEditor colors.
 - Adjust grey.
+- Support for native bracket colorization
 
 ## 0.1.4
 
