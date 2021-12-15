@@ -192,7 +192,7 @@
     "vscode": "^1.55.0"
   },
   "devDependencies": {
-    "@types/node": "16.7.10",
+    "@types/node": "16.11.13",
     "@types/vscode": "1.55.0",
     "@typescript-eslint/eslint-plugin": "4.30.0",
     "@typescript-eslint/parser": "4.30.0",
@@ -203,7 +203,7 @@
     "lint-staged": "11.1.2",
     "prettier": "2.3.2",
     "rimraf": "3.0.2",
-    "typescript": "4.4.2",
+    "typescript": "4.5.3",
     "vsce": "1.96.3"
   }
 }
