@@ -5,6 +5,7 @@ All notable changes to the "everforest" extension will be documented in this fil
 ## 0.1.6
 
 - Add new option `everforest.highContrast`.
+- Add some new theme tokens.
 
 ## 0.1.5
 
