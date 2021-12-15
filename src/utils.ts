@@ -33,6 +33,7 @@ export default class Utils {
       diagnosticTextBackgroundOpacity: workspaceConfiguration.get<string>(
         "diagnosticTextBackgroundOpacity"
       ),
+      highContrast: workspaceConfiguration.get<boolean>("highContrast"),
     };
   } // }}}
   isDefaultConfiguration(configuration: Configuration): boolean {
@@ -48,7 +49,8 @@ export default class Utils {
       configuration.lightCursor === "black" &&
       configuration.darkSelection === "grey" &&
       configuration.lightSelection === "grey" &&
-      configuration.diagnosticTextBackgroundOpacity === "0%"
+      configuration.diagnosticTextBackgroundOpacity === "0%" &&
+      configuration.highContrast === false
     );
   } // }}}
   getThemeData(configuration: Configuration) {
