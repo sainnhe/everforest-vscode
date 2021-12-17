@@ -59,7 +59,7 @@ const configuration: Configuration = {
 };
 
 utils.generate(
-  join(__dirname, "..", "..", "themes", "everforest-dark.json"),
-  join(__dirname, "..", "..", "themes", "everforest-light.json"),
+  join(__dirname, "..", "..", "..", "themes", "everforest-dark.json"),
+  join(__dirname, "..", "..", "..", "themes", "everforest-light.json"),
   utils.getThemeData(configuration)
 );
