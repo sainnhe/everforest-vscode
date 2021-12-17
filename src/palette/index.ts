@@ -1,3 +1,9 @@
+/*---------------------------------------------------------------------------------------------
+ *  Homepage:   https://github.com/sainnhe/everforest-vscode
+ *  Copyright:  2020 Sainnhe Park <sainnhe@gmail.com>
+ *  License:    MIT
+ *--------------------------------------------------------------------------------------------*/
+
 import { Configuration, Palette } from "../interface";
 import { default as darkForeground } from "./dark/foreground";
 import { default as darkBackgroundHard } from "./dark/background/hard";
