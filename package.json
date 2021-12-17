@@ -162,7 +162,7 @@
         "everforest.diagnosticTextBackgroundOpacity": {
           "type": "string",
           "default": "0%",
-          "markdownDescription": "VSCode introduced a new feature in v1.52 that can highlight the background color of error/warning/info text, you can use this option to control the opacity of the background colors.",
+          "markdownDescription": "The opacity of the background color of [diagnostic text](https://code.visualstudio.com/updates/v1_52#_error-background-colors).",
           "enum": [
             "0%",
             "12.5%",
