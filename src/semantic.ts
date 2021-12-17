@@ -46,3 +46,5 @@ export function getSemantic(configuration: Configuration, variant: string) {
     // }}}
   };
 }
+
+// vim: fdm=marker fmr={{{,}}}:

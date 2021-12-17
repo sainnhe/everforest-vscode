@@ -63,3 +63,5 @@ utils.generate(
   join(__dirname, "..", "..", "themes", "everforest-light.json"),
   utils.getThemeData(configuration)
 );
+
+// vim: fdm=marker fmr={{{,}}}:

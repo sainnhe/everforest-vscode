@@ -88,3 +88,5 @@ export function getPalette(
     badge: paletteForeground.badge,
   }; // }}}
 }
+
+// vim: fdm=marker fmr={{{,}}}:

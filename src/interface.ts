@@ -48,3 +48,5 @@ export interface Palette {
   shadow: string;
   badge: string;
 }
+
+// vim: fdm=marker fmr={{{,}}}:

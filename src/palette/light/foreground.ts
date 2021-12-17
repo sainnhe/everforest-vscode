@@ -16,3 +16,5 @@ export default {
   dimPurple: "#e092be",
   badge: "#93b259",
 };
+
+// vim: fdm=marker fmr={{{,}}}:
