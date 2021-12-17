@@ -38,8 +38,8 @@
     },
     "virtualWorkspaces": true
   },
-  "main": "./out/main/index-client.js",
-  "browser": "./out/main/index-web.js",
+  "main": "dist/index-client.js",
+  "browser": "dist/index-web.js",
   "contributes": {
     "themes": [
       {
@@ -188,9 +188,9 @@
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
-    "clean": "rimraf out *.vsix",
+    "clean": "rimraf dist *.vsix",
     "compile:ts": "tsc",
-    "compile:themes": "node out/main/hook/generateThemes.js",
+    "compile:themes": "node dist/hook/generateThemes.js",
     "compile": "npm run clean && npm run compile:ts && npm run compile:themes",
     "package": "vsce package && git checkout -- themes",
     "lint": "eslint . --ext .ts",

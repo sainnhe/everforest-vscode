@@ -3,7 +3,7 @@
 *.vsix
 **/*.ts
 tsconfig.json
-out/main/hook
+dist/hook
 .github
 .husky
 .eslintrc.js
