@@ -2,6 +2,10 @@
 
 All notable changes to the "everforest" extension will be documented in this file.
 
+## 0.2.1
+
+- Add badge.
+
 ## 0.2.0
 
 - Enable this extension in vscode web.

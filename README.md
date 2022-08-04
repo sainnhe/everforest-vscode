@@ -39,12 +39,16 @@
 ![light-soft-high-contrast](https://gitlab.com/sainnhe/img/-/raw/master/ef-vsc-light-soft-high-contrast.png)
 
 <p align="center">
-  <a href="https://marketplace.visualstudio.com/items?itemName=sainnhe.everforest">Marketplace</a> |
-  <a href="https://open-vsx.org/extension/sainnhe/everforest">Registry</a> |
-  <a href="https://github.com/sainnhe/everforest-vscode">Repository</a> |
-  <a href="https://github.com/sainnhe/everforest-vscode/issues">Issues</a> |
-  <a href="https://github.com/sainnhe/everforest-vscode/blob/master/CHANGELOG.md">Changelog</a>
-  <br><br>
+    <a href="https://marketplace.visualstudio.com/items?itemName=sainnhe.everforest" alt="Marketplace">
+        <img src="https://img.shields.io/badge/vscode-marketplace-blue" /></a>
+    <a href="https://open-vsx.org/extension/sainnhe/everforest" alt="Registry">
+        <img src="https://img.shields.io/badge/open--vsx-registry-green" /></a>
+    <a href="https://github.com/sainnhe/everforest-vscode" alt="Repository">
+        <img src="https://img.shields.io/badge/github-repository-blueviolet" /></a>
+    <a href="https://github.com/sainnhe/everforest-vscode/issues" alt="Issues">
+        <img src="https://img.shields.io/badge/issue-feedback-red" /></a>
+    <a href="https://vscode.dev/theme/sainnhe.everforest" alt="Preview">
+        <img src="https://img.shields.io/badge/preview-vscode.dev-yellow" /></a>
 </p>
 
 This color scheme is a port of [Everforest](https://github.com/sainnhe/everforest) for Visual Studio Code and its forks.
