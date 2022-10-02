@@ -18,6 +18,7 @@
     "green",
     "theme"
   ],
+  "icon": "img/icon.png",
   "galleryBanner": {
     "color": "#2f383e",
     "theme": "dark"

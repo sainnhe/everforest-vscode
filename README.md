@@ -1,42 +1,15 @@
 <h1 align="center">
-𝐄𝐯𝐞𝐫𝐟𝐨𝐫𝐞𝐬𝐭
+  <br>
+  <a href="https://marketplace.visualstudio.com/items?itemName=sainnhe.everforest">
+    <img src="https://raw.githubusercontent.com/sainnhe/everforest-vscode/master/img/icon.png">
+  </a>
+  <br>
+  Everforest
+  <br>
 </h1>
 
-<h2 align="center">
-𝐃𝐚𝐫𝐤 𝐇𝐚𝐫𝐝 𝐅𝐥𝐚𝐭
-</h2>
+<h4 align="center">A port of Everforest theme to VS Code editor</h4>
 
-![dark-hard-flat](https://gitlab.com/sainnhe/img/-/raw/master/ef-vsc-dark-hard-flat.png)
-
-<h2 align="center">
-𝐃𝐚𝐫𝐤 𝐌𝐞𝐝𝐢𝐮𝐦 𝐌𝐚𝐭𝐞𝐫𝐢𝐚𝐥
-</h2>
-
-![dark-medium-material](https://gitlab.com/sainnhe/img/-/raw/master/ef-vsc-dark-medium-material.png)
-
-<h2 align="center">
-𝐃𝐚𝐫𝐤 𝐒𝐨𝐟𝐭 𝐇𝐢𝐠𝐡 𝐂𝐨𝐧𝐭𝐫𝐚𝐬𝐭
-</h2>
-
-![dark-soft-high-contrast](https://gitlab.com/sainnhe/img/-/raw/master/ef-vsc-dark-soft-high-contrast.png)
-
-<h2 align="center">
-𝐋𝐢𝐠𝐡𝐭 𝐇𝐚𝐫𝐝 𝐅𝐥𝐚𝐭
-</h2>
-
-![light-hard-flat](https://gitlab.com/sainnhe/img/-/raw/master/ef-vsc-light-hard-flat.png)
-
-<h2 align="center">
-𝐋𝐢𝐠𝐡𝐭 𝐌𝐞𝐝𝐢𝐮𝐦 𝐌𝐚𝐭𝐞𝐫𝐢𝐚𝐥
-</h2>
-
-![light-medium-material](https://gitlab.com/sainnhe/img/-/raw/master/ef-vsc-light-medium-material.png)
-
-<h2 align="center">
-𝐋𝐢𝐠𝐡𝐭 𝐒𝐨𝐟𝐭 𝐇𝐢𝐠𝐡 𝐂𝐨𝐧𝐭𝐫𝐚𝐬𝐭
-</h2>
-
-![light-soft-high-contrast](https://gitlab.com/sainnhe/img/-/raw/master/ef-vsc-light-soft-high-contrast.png)
 
 <p align="center">
     <a href="https://marketplace.visualstudio.com/items?itemName=sainnhe.everforest" alt="Marketplace">
@@ -50,6 +23,8 @@
     <a href="https://vscode.dev/theme/sainnhe.everforest" alt="Preview">
         <img src="https://img.shields.io/badge/preview-vscode.dev-yellow" /></a>
 </p>
+
+## About
 
 This color scheme is a port of [Everforest](https://github.com/sainnhe/everforest) for Visual Studio Code and its forks.
 
@@ -65,10 +40,16 @@ This color scheme is a port of [Everforest](https://github.com/sainnhe/everfores
 - Semantic highlighting support.
 - Italic support.
 
+|        |                                      Dark                                      |                                      Light                                       |
+| :----: | :----------------------------------------------------------------------------: | :------------------------------------------------------------------------------: |
+|    |   ![hard-dark](https://raw.githubusercontent.com/mstuttgart/everforest-vscode/master/img/dark.png)    |    ![hard-dark](https://raw.githubusercontent.com/mstuttgart/everforest-vscode/master/img/light.png)
+
+
+
 <details>
   <summary>Optimized File Types and Syntax Extensions: (<b>click on this line to expand</b>)</summary>
 
-The following file types and syntax extensions are basically optimized, but there might be some bugs and mistakes, feedback is welcome :)
+The following file types and syntax extensionsv are basically optimized, but there might be some bugs and mistakes, feedback is welcome :)
 
 - **Assembly:** [MASM](https://marketplace.visualstudio.com/items?itemName=bltg-team.masm)
 - **C#:** builtin
@@ -136,9 +117,17 @@ The following file types and syntax extensions are basically optimized, but ther
 
 ## Installation
 
-1. Press extensions icon in your editor.
-2. Search for `sainnhe.everforest`.
-3. Select this extension and press `install` button.
+Launch *Quick Open*
+
+  - <img src="https://www.kernel.org/theme/images/logos/favicon.png" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf">Linux</a> `Ctrl+P`
+  - <img src="https://developer.apple.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf">macOS</a> `⌘P`
+  - <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">Windows</a> `Ctrl+P`
+
+Paste the following command and press `Enter`:
+
+```
+ext install sainnhe.everforest
+```
 
 ## Usage
 
