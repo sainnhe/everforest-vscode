@@ -5,13 +5,13 @@
  *--------------------------------------------------------------------------------------------*/
 
 export default {
-  bg0: "#f0edd8",
-  bg1: "#f6f1dd",
+  bg0: "#efebd4",
+  bg1: "#f4f0d9",
   bg: "#fdf6e3",
-  bg2: "#f3efda",
-  bg3: "#edead5",
-  bg4: "#e4e1cd",
-  bg5: "#dfdbc8",
+  bg2: "#f4f0d9",
+  bg3: "#efebd4",
+  bg4: "#e6e2cc",
+  bg5: "#e0dcc7",
   grey0: "#a4ad9e",
   grey1: "#939f91",
   grey2: "#879686",
