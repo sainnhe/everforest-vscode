@@ -2,6 +2,11 @@
 
 All notable changes to the "everforest" extension will be documented in this file.
 
+## 0.3.0
+
+- Change `activationEvents`.
+- Update colors.
+
 ## 0.2.1
 
 - Add badge.
