@@ -498,7 +498,7 @@
     },
     {
       "name": "Storage",
-      "scope": "storage, modifier, keyword.var, entity.name.tag, keyword.control.case, keyword.control.switch",
+      "scope": "modifier, keyword.var, entity.name.tag, keyword.control.case, keyword.control.switch",
       "settings": {
         "foreground": "#f57d26"
       }
@@ -507,14 +507,14 @@
       "name": "Operator",
       "scope": "keyword.operator",
       "settings": {
-        "foreground": "#f57d26"
+        "foreground": "#8da101"
       }
     },
     {
       "name": "String",
       "scope": "string, punctuation.definition.string.end, punctuation.definition.string.begin, punctuation.definition.string.template.begin, punctuation.definition.string.template.end",
       "settings": {
-        "foreground": "#dfa000"
+        "foreground": "#35a77c"
       }
     },
     {
@@ -626,7 +626,7 @@
       "name": "Property",
       "scope": "variable.object.property, support.variable.property, variable.other.property, variable.other.object.property, variable.other.enummember, variable.other.member, meta.object-literal.key",
       "settings": {
-        "foreground": "#5c6a72"
+        "foreground": "#3a94c5"
       }
     },
     {
@@ -1050,9 +1050,9 @@
     },
     {
       "name": "JavaScript orange",
-      "scope": "storage.type.js, storage.type.function.arrow.js",
+      "scope": "storage, storage.type.js, storage.type.function.arrow.js",
       "settings": {
-        "foreground": "#f57d26"
+        "foreground": "#f85552"
       }
     },
     {

@@ -27,7 +27,7 @@ export function getDefaultSyntax(palette: Palette, italicComments: boolean) {
     {
       name: "Storage",
       scope:
-        "storage, modifier, keyword.var, entity.name.tag, keyword.control.case, keyword.control.switch",
+        "modifier, keyword.var, entity.name.tag, keyword.control.case, keyword.control.switch",
       settings: {
         foreground: palette.orange,
       },
@@ -36,7 +36,7 @@ export function getDefaultSyntax(palette: Palette, italicComments: boolean) {
       name: "Operator",
       scope: "keyword.operator",
       settings: {
-        foreground: palette.orange,
+        foreground: palette.green,
       },
     },
     {
@@ -44,7 +44,7 @@ export function getDefaultSyntax(palette: Palette, italicComments: boolean) {
       scope:
         "string, punctuation.definition.string.end, punctuation.definition.string.begin, punctuation.definition.string.template.begin, punctuation.definition.string.template.end",
       settings: {
-        foreground: palette.yellow,
+        foreground: palette.aqua,
       },
     },
     {
@@ -163,7 +163,7 @@ export function getDefaultSyntax(palette: Palette, italicComments: boolean) {
       scope:
         "variable.object.property, support.variable.property, variable.other.property, variable.other.object.property, variable.other.enummember, variable.other.member, meta.object-literal.key",
       settings: {
-        foreground: palette.fg,
+        foreground: palette.blue,
       },
     },
     {
@@ -630,9 +630,9 @@ export function getDefaultSyntax(palette: Palette, italicComments: boolean) {
     },
     {
       name: "JavaScript orange",
-      scope: "storage.type.js, storage.type.function.arrow.js",
+      scope: "storage, storage.type.js, storage.type.function.arrow.js",
       settings: {
-        foreground: palette.orange,
+        foreground: palette.red,
       },
     },
     // }}}

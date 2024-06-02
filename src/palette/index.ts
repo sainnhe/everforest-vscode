@@ -6,6 +6,7 @@
 
 import { Configuration, Palette } from "../interface";
 import { default as darkForeground } from "./dark/foreground";
+import { default as darkBackgroundVoid } from "./dark/background/void";
 import { default as darkBackgroundHard } from "./dark/background/hard";
 import { default as darkBackgroundMedium } from "./dark/background/medium";
 import { default as darkBackgroundSoft } from "./dark/background/soft";
@@ -23,8 +24,12 @@ export function getPalette(
   if (variant === "dark") {
     paletteForeground = darkForeground;
     switch (
-      configuration.darkContrast // {{{
+    configuration.darkContrast // {{{
     ) {
+      case "void": {
+        paletteBackground = darkBackgroundVoid;
+        break;
+      }
       case "hard": {
         paletteBackground = darkBackgroundHard;
         break;
@@ -44,7 +49,7 @@ export function getPalette(
   } else {
     paletteForeground = lightForeground;
     switch (
-      configuration.lightContrast // {{{
+    configuration.lightContrast // {{{
     ) {
       case "hard": {
         paletteBackground = lightBackgroundHard;

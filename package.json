@@ -63,7 +63,8 @@
           "enum": [
             "soft",
             "medium",
-            "hard"
+            "hard",
+            "void"
           ]
         },
         "everforest.lightContrast": {
@@ -210,7 +211,7 @@
     "@typescript-eslint/eslint-plugin": "5.46.1",
     "@typescript-eslint/parser": "5.46.1",
     "@vscode/test-web": "0.0.33",
-    "@vscode/vsce": "^2.15.0",
+    "@vscode/vsce": "^2.26.1",
     "eslint": "8.29.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-prettier": "4.2.1",
