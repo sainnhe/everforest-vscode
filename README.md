@@ -1,3 +1,8 @@
+> [!IMPORTANT]  
+> Since vscode is not my daily editor and lack of time, this repo is no longer maintained. Welcome to fork this repo and publish a new extension to marketplace.
+
+---
+
 <h1 align="center">
 𝐄𝐯𝐞𝐫𝐟𝐨𝐫𝐞𝐬𝐭
 </h1>
